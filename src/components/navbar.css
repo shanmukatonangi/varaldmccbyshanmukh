@@ -1,0 +1,42 @@
+div{
+    font-family: 'Lexend Deca', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    
+}
+
+.options{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    color: gray;
+}
+.opt5{
+    background-color: #525ded;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    color: white;
+}
+.opt1{
+    color: black;
+}
+.n3{display: none;}
+
+@media screen and (max-width:600px) {
+    .n3{
+        display:flex;
+    }
+    .options{
+        display: none;
+    }
+    
+}

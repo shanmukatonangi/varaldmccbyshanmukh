@@ -1,0 +1,149 @@
+.footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    gap: 10%;
+    margin: auto;
+}
+
+
+
+.blueline{
+    font-weight: bold;
+    height: 50px;
+    border-left: 10px solid #525ded;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.blueline1{
+    font-weight: bold;
+    height: 50px;
+    border-left: 10px solid #525ded;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+.fb1{
+    padding: 5%;
+    width: 45%;
+   
+}
+.fb2{
+    width: 45%;
+    padding: 5%;
+    
+}
+.blueline p{width: 70%;}
+.blueline1 p{width: 70%;}
+.wifibox{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    font-weight: lighter;
+}
+.wifibox h3{
+    font-weight: normal;
+    width: 100%;
+}
+.wifibox p{
+    color: #525ded;
+}
+.wib{
+    height: 100%;
+    border: 2px solid #525ded;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.wifibox1{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    font-weight: lighter;
+}
+.wifibox1 h3{
+    font-weight: normal;
+}
+.wifibox1 p{
+    color: #525ded;
+}
+.wib1{
+    height: 100%;
+    border: 2px solid #525ded;
+    padding: 20px;
+    border-radius: 50%;
+}
+.darkone{
+    font-weight: bold;
+}
+.lightone{
+    color: gainsboro;
+    margin-top: -2%;
+    font-weight: normal;
+
+    
+}
+.emailbox{
+    display: flex;
+}
+.eb1{
+    background-color: rgb(220, 212, 212);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+}
+
+.socialicons{
+    margin-top: 5%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cred{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+
+@media screen and (max-width:600px) {
+    .footer{
+        flex-direction: column;
+    }
+    .fb1{
+        width: 100%;
+    }
+    .fb2{
+        width: 100%;
+    }
+    .blueline{
+        width: 100%;
+    }
+    .blueline p{
+        width: 100%;
+    }
+    .blueline1{
+        width: 100%;
+    }
+    .blueline1 p{
+        width: 100%;
+    }
+    .socialicons{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,34 @@
+.searchbar{
+    height: 50px;
+    width: 90%;
+   
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: right;
+}
+
+.searchicon{
+    height: 50px;
+    width: 30%;
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border:  2px solid #525ded ;
+    border-radius: 5px;
+    font-size: 22px;
+    color: #525ded ;
+   
+}
+
+.si{
+    height: 100px;
+}
+
+@media screen and (max-width:600px) {
+    .searchicon{
+        width: 100%;
+    }
+    
+}
